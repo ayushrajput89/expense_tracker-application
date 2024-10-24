@@ -1,0 +1,110 @@
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+  background-image: url("coin.avif");
+}
+
+/* Headers */
+h1, h2 {
+  text-align: center;
+  color: #333;
+}
+
+/* Input section styling */
+.input-section {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin: 20px auto;
+  width: fit-content;
+}
+
+/* Input labels */
+.input-section label {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+/* Input fields */
+.input-section input[type="number"], 
+.input-section input[type="date"], 
+.input-section select {
+  padding: 8px;
+  margin-right: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 150px;
+}
+
+/* Add button */
+.input-section button {
+  padding: 8px 15px;
+  background-color: #a2137a;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.input-section button:hover {
+  background-color: #58c1ee;
+}
+
+/* Expenses list section */
+.expenses-list {
+  width: 90%;
+  margin: 20px auto;
+  background-color: #ddd;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+/* Table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th, td {
+  border: 1px solid #dddddd;
+  padding: 10px;
+  text-align: left;
+}
+
+/* Table header */
+th {
+  background-color: #de8e26;
+  color: white;
+}
+
+/* Table footer (total amount) */
+tfoot td {
+  font-weight: bold;
+  background-color: #f4f4f4;
+}
+
+/* Delete button */
+.delete-btn {
+  padding: 8px 15px;
+  background-color: #dd6b61;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background-color: #d32f2f;
+}

@@ -1,0 +1,61 @@
+<html>
+    <link rel="stylesheet" href="style.css">
+
+<body>
+    <h1 style="color:rgb(40, 99, 135) ;"><u>Expense Tracker App</u></h1>
+    <div class="input-section">
+        <label for="income-input">Income:</label>
+        <input type="number" id="income-input" placeholder="Enter your income">
+        <label for="category-select">Category:</label>
+        <select id="category-select">
+            <option value="Food & Beverage">Food & Beverage</option>
+            <option value="Rent">Rent</option>
+            <option value="Travel">Travel</option>
+            <option value="Relaxing">Relaxing</option>
+            <option value="Electricity Bill">Electricity Bill</option>
+            <option value="Fees">Fees</option>
+        </select>
+        <label for="amount-input">Amount:</label>
+        <input type="number" id="amount-input">
+        <label for="date-input">Date:</label>
+        <input type="date" id="date-input">
+        <button id="add-btn">Add</button>
+    </div>
+
+    <div class="balance-section">
+        <h2 style="text-align:left">Balance</h2>
+        <p><i><b><u>Total Income:</u></b></i> <span id="total-income"><b>$ &nbsp 0.00</b></span></p>
+        <p style="background-color: #eeeef1dc; font-family: Georgia, 'Times New Roman', Times, serif ;">Total Expenses: <span id="total-expenses">$ &nbsp 0.00</span></p> 
+        <p><i>Remaining Balance:</i> <span id="remaining-balance">$ &nbsp 0.00</span></p>
+    </div>
+
+    <div class="expenses-list">
+        <h2 style="color:rgb(15, 14, 14) ">Expenses List</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Category</th>
+                    <th>Amount</th>
+                    <th>Date</th>
+                    <th>Delete</th>
+                </tr>
+            </thead>
+            <tbody id="expense-table-body">
+            </tbody>
+            <tfoot>
+                <tr>
+                  
+                    
+                </tr>
+                <tr>
+                    <td>Total Expense:</td>
+                    <td id="total-amount"></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+<html
